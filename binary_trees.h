@@ -42,6 +42,7 @@ typedef struct binary_tree_s heap_t;
 
 /* Prototypes */
 
+
 void free_leaf(binary_tree_t *leaf);
 binary_tree_t *to_left_leaf(binary_tree_t *tree);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
